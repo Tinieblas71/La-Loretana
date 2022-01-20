@@ -91,6 +91,7 @@ section{
 .header .logo img{
     height: 60px;
     width: 100px;
+    border-radius: 100%;
 }
 
 .header .navbar a{
@@ -228,21 +229,16 @@ section{
     color: rgb(0, 0, 0);
     border: 3px  solid black;
     background: #ffffff;
-    justify-content: center;
-    align-items: center;
     text-transform: uppercase;
-}
-.home .content h3 i
-{
-    visibility: hidden;
+    letter-spacing: 4px;
 }
 .home .content span{
     font-family: 'IBM Plex Serif', serif;
     font-size: 6rem;
     color: rgb(255, 255, 255);
-    border: var(--border);
+    border: 3px solid rgb(47, 47, 47);
     background: #000000;
-    padding: 0 25px;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 
@@ -639,6 +635,10 @@ section{
     }
 
     .home .content h3{
+        font-size: 4.5rem;
+    }
+
+    .home .content span{
         font-size: 4.5rem;
     }
 
